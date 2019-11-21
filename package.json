@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "fs-extra": "^8.1.0",
+    "iso-639-1": "^2.1.0",
     "node-read-yaml-files": "0.0.1",
     "transliteration": "^2.1.7"
   },
