@@ -7,4 +7,5 @@
   author:
   langs: ["en"]
   github:
-  tags:
+  categories: ["Teams", "Personal"]
+  tags: ["python"]
