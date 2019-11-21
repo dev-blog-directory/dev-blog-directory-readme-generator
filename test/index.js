@@ -8,3 +8,5 @@ describe('dev-blog-directory-readme-generator', () => {
     expect(main).to.be.a('function');
   });
 });
+
+require('./group-by-lang.js'); // eslint-disable-line import/no-unassigned-import

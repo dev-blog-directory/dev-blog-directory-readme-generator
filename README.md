@@ -23,6 +23,11 @@ e.g.
 $ npx readme-gen ../dev-blog-directory-raw/documents
 ```
 
+## TOODs
+- [x] separate files by Languages.
+- [ ] lastest published date
+- [ ] RSS
+
 ## Related
 
 - [dev-blog-directory](https://github.com/dev-blog-directory/dev-blog-directory) - A Developer Blog Directory.
