@@ -1,0 +1,10 @@
+-
+  _id: a4iztpoa0f
+  name: "Perl Tricks"
+  url: "http://perltricks.com/"
+  desc: "Perl programming articles."
+  rss:
+  author:
+  langs: ["en"]
+  github:
+  tags:
