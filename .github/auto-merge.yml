@@ -1,0 +1,10 @@
+minApprovals:
+  COLLABORATOR: 0
+
+reportStatus: true
+
+rules:
+- minApprovals:
+    OWNER: 1
+- minApprovals:
+    MEMBER: 2
