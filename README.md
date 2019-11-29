@@ -25,8 +25,8 @@ $ npx readme-gen ../dev-blog-directory-raw/documents
 
 ## TOODs
 - [x] separate files by Languages.
+- [x] add feed links (RSS, OPML)
 - [ ] lastest published date
-- [ ] RSS
 
 ## Related
 
