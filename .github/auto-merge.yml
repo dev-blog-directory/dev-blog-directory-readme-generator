@@ -4,7 +4,7 @@ minApprovals:
 reportStatus: true
 
 rules:
-- minApprovals:
-    OWNER: 1
-- minApprovals:
-    MEMBER: 2
+  - minApprovals:
+      OWNER: 1
+  - minApprovals:
+      MEMBER: 2
