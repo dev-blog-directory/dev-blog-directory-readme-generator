@@ -1,7 +1,7 @@
 'use strict';
 
 const {expect} = require('chai');
-const groupByLang = require('dev-blog-directory-readme-generator/lib/group-by-lang.js');
+const groupByLang = require('../lib/group-by-lang.js');
 
 describe('groupByLang', () => {
   it('should return empty object', () => {
