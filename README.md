@@ -37,7 +37,7 @@ $ npx readme-gen ../dev-blog-directory-raw/documents
 - [dev-blog-directory-save-yaml-cli](https://github.com/dailyrandomphoto/dev-blog-directory-save-yaml-cli) - A CLI for saves the YAML format blog list to `documents/*.yml`.
 
 ## License
-Copyright (c) 2019 [dailyrandomphoto][my-url]. Licensed under the [MIT license][license-url].
+Copyright (c) 2020 [dailyrandomphoto][my-url]. Licensed under the [MIT license][license-url].
 
 [my-url]: https://github.com/dailyrandomphoto
 [npm-url]: https://www.npmjs.com/package/dev-blog-directory-readme-generator
