@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "feed-db": "0.0.1",
-    "fs-extra": "^8.1.0",
+    "fs-extra": "^9.0.1",
     "iso-639-1": "^2.1.0",
     "node-read-yaml-files": "0.0.1",
     "opml-generator": "^1.1.1",
