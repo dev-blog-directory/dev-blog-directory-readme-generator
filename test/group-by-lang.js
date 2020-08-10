@@ -1,6 +1,6 @@
 'use strict';
 
-const {expect} = require('chai');
+const { expect } = require('chai');
 const groupByLang = require('../lib/group-by-lang.js');
 
 describe('groupByLang', () => {
@@ -12,9 +12,7 @@ describe('groupByLang', () => {
   });
 
   it('default lang - en', () => {
-    const blogs = [
-      {url: 'http://blog.com/1'}
-    ];
+    const blogs = [{ url: 'http://blog.com/1' }];
     const result = groupByLang(blogs);
     expect(result).to.be.an('object');
     expect(result.en).to.be.an('array').to.have.lengthOf(1);
@@ -24,14 +22,14 @@ describe('groupByLang', () => {
 
   it('multi langs', () => {
     const blogs = [
-      {url: 'http://blog.com/1'},
-      {url: 'http://blog.com/2', langs: ['zh']},
-      {url: 'http://blog.com/3', langs: ['ko']},
-      {url: 'http://blog.com/4', langs: ['ja']},
-      {url: 'http://blog.com/5', langs: ['en']},
-      {url: 'http://blog.com/6', langs: ['zh']},
-      {url: 'http://blog.com/7', langs: ['ko']},
-      {url: 'http://blog.com/8', langs: ['ja']}
+      { url: 'http://blog.com/1' },
+      { url: 'http://blog.com/2', langs: ['zh'] },
+      { url: 'http://blog.com/3', langs: ['ko'] },
+      { url: 'http://blog.com/4', langs: ['ja'] },
+      { url: 'http://blog.com/5', langs: ['en'] },
+      { url: 'http://blog.com/6', langs: ['zh'] },
+      { url: 'http://blog.com/7', langs: ['ko'] },
+      { url: 'http://blog.com/8', langs: ['ja'] }
     ];
     const result = groupByLang(blogs);
     expect(result).to.be.an('object');
@@ -46,14 +44,14 @@ describe('groupByLang', () => {
 
   it('multi langs 2', () => {
     const blogs = [
-      {url: 'http://blog.com/1'},
-      {url: 'http://blog.com/2', langs: ['zh', 'en']},
-      {url: 'http://blog.com/3', langs: ['ko', 'en']},
-      {url: 'http://blog.com/4', langs: ['ja', 'en']},
-      {url: 'http://blog.com/5', langs: ['en', 'ko']},
-      {url: 'http://blog.com/6', langs: ['zh', 'ko']},
-      {url: 'http://blog.com/7', langs: ['ko']},
-      {url: 'http://blog.com/8', langs: ['ja']}
+      { url: 'http://blog.com/1' },
+      { url: 'http://blog.com/2', langs: ['zh', 'en'] },
+      { url: 'http://blog.com/3', langs: ['ko', 'en'] },
+      { url: 'http://blog.com/4', langs: ['ja', 'en'] },
+      { url: 'http://blog.com/5', langs: ['en', 'ko'] },
+      { url: 'http://blog.com/6', langs: ['zh', 'ko'] },
+      { url: 'http://blog.com/7', langs: ['ko'] },
+      { url: 'http://blog.com/8', langs: ['ja'] }
     ];
     const result = groupByLang(blogs);
     expect(result).to.be.an('object');

@@ -1,6 +1,6 @@
 'use strict';
 
-const {expect} = require('chai');
+const { expect } = require('chai');
 const main = require('../lib');
 
 describe('dev-blog-directory-readme-generator', () => {
