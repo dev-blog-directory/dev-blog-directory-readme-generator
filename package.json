@@ -18,7 +18,7 @@
     "feed-db": "0.0.1",
     "fs-extra": "^8.1.0",
     "iso-639-1": "^2.1.0",
-    "node-read-yaml-files": "0.0.1",
+    "node-read-yaml-files": "1.0.1",
     "opml-generator": "^1.1.1",
     "transliteration": "^2.1.7",
     "xml-formatter": "^1.2.0"
