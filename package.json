@@ -1,6 +1,6 @@
 {
   "name": "dev-blog-directory-readme-generator",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A Generator to generate README of Developer Blog Directory.",
   "main": "lib/index.js",
   "bin": {

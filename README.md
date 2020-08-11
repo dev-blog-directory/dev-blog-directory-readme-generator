@@ -34,10 +34,10 @@ $ npx readme-gen ../dev-blog-directory-raw/documents
 ## Related
 
 - [dev-blog-directory](https://github.com/dev-blog-directory/dev-blog-directory) - A Developer Blog Directory.
-- [dev-blog-directory-raw](https://github.com/dailyrandomphoto/dev-blog-directory-raw) - Raw data storage of [Developer Blog Directory](https://github.com/dev-blog-directory/dev-blog-directory).
-- [dev-blog-directory-save](https://github.com/dailyrandomphoto/dev-blog-directory-save) - API for save new blogs to [dev-blog-directory-raw](https://github.com/dailyrandomphoto/dev-blog-directory-raw).
-- [dev-blog-directory-save-json-cli](https://github.com/dailyrandomphoto/dev-blog-directory-save-json-cli) - A CLI for saves the JSON format blog list to `documents/*.yml`.
-- [dev-blog-directory-save-yaml-cli](https://github.com/dailyrandomphoto/dev-blog-directory-save-yaml-cli) - A CLI for saves the YAML format blog list to `documents/*.yml`.
+- [dev-blog-directory-raw](https://github.com/dev-blog-directory/dev-blog-directory-raw) - Raw data storage of [Developer Blog Directory](https://github.com/dev-blog-directory/dev-blog-directory).
+- [dev-blog-directory-save](https://github.com/dev-blog-directory/dev-blog-directory-save) - API for save new blogs to [dev-blog-directory-raw](https://github.com/dev-blog-directory/dev-blog-directory-raw).
+- [dev-blog-directory-save-json-cli](https://github.com/dev-blog-directory/dev-blog-directory-save-json-cli) - A CLI for saves the JSON format blog list to `documents/*.yml`.
+- [dev-blog-directory-save-yaml-cli](https://github.com/dev-blog-directory/dev-blog-directory-save-yaml-cli) - A CLI for saves the YAML format blog list to `documents/*.yml`.
 
 ## License
 
